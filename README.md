@@ -1,6 +1,6 @@
 # Sistema de Control de Acceso a Laboratorio
 
-## 📌 Descripción
+##  Descripción
 
 Este proyecto consiste en el desarrollo de una aplicación en Java que permite gestionar y controlar el acceso de usuarios a un laboratorio técnico.
 
@@ -10,40 +10,40 @@ Se implementa utilizando arquitectura por capas, almacenamiento en archivos de t
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 
 Desarrollar una aplicación que permita administrar el ingreso de usuarios a un laboratorio, aplicando buenas prácticas de programación, manejo de archivos y separación por capas.
 
 ---
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
-### 👤 Gestión de usuarios
+###  Gestión de usuarios
 
 * Registro de usuarios (ID, nombre, rol)
 * Consulta de usuarios registrados
 * Eliminación de usuarios
 
-### 🚪 Control de accesos
+###  Control de accesos
 
 * Registro de entrada al laboratorio
 * Registro de salida del laboratorio
 
-### ✅ Validaciones
+###  Validaciones
 
 * No permite registrar usuarios con ID duplicado
 * No permite doble entrada sin salida previa
 * No permite salida sin una entrada registrada
 * No permite datos incompletos
 
-### 📊 Reportes
+###  Reportes
 
 * Historial de accesos por usuario
 * Cálculo del tiempo total dentro del laboratorio (en minutos)
 
 ---
 
-## 🏗️ Arquitectura del sistema
+##  Arquitectura del sistema
 
 El proyecto está desarrollado utilizando una arquitectura en capas:
 
@@ -53,11 +53,11 @@ El proyecto está desarrollado utilizando una arquitectura en capas:
 * **presentacion:** interfaz de usuario por consola
 * **util:** funciones auxiliares (manejo de fechas y tiempo)
 
-⚠️ Importante: La capa de presentación NO accede directamente a acceso a datos.
+ Importante: La capa de presentación NO accede directamente a acceso a datos.
 
 ---
 
-## 💾 Persistencia de datos
+##  Persistencia de datos
 
 El sistema utiliza archivos de texto para almacenar la información:
 
@@ -75,7 +75,7 @@ Ejemplo:
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+##  Cómo ejecutar el proyecto
 
 1. Abrir el proyecto en Apache NetBeans
 2. Ejecutar la clase principal:
@@ -97,7 +97,7 @@ presentacion.Main
 
 ---
 
-## 📂 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 src/
@@ -110,7 +110,7 @@ src/
 
 ---
 
-## 📊 Ejemplo de uso
+##  Ejemplo de uso
 
 1. Registrar un usuario
 2. Registrar entrada al laboratorio
@@ -120,14 +120,14 @@ src/
 
 ---
 
-## 📌 Autor
+##  Autor
 
 Estudiante de Programación III
 Universidad Latina de Costa Rica
 
 ---
 
-## ✅ Estado del proyecto
+##  Estado del proyecto
 
 ✔ Proyecto funcional
 ✔ Cumple con los requisitos solicitados
